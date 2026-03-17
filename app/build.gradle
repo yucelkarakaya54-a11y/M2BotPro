@@ -1,0 +1,24 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.m2bot.pro'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.m2bot.pro"
+        minSdk 26
+        targetSdk 34
+        versionCode 3
+        versionName "3.0"
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}
