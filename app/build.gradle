@@ -1,24 +1,35 @@
 plugins {
     id 'com.android.application'
 }
+
 android {
     namespace 'com.m2bot.pro'
     compileSdk 34
+
     defaultConfig {
         applicationId "com.m2bot.pro"
         minSdk 26
         targetSdk 34
-        versionCode 3
-        versionName "3.0"
+        versionCode 7
+        versionName "5.0"
     }
+
     buildTypes {
-        release { minifyEnabled false }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    lint {
+        abortOnError false
+    }
 }
+
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
 }

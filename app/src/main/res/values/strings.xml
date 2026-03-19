@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M2 Bot Pro</string>
+    <string name="accessibility_service_description">M2 Bot Pro automation service for gesture dispatch and screen analysis.</string>
+
+    <!-- Notification channels -->
+    <string name="channel_capture_name">Screen Capture</string>
+    <string name="channel_overlay_name">Bot Overlay</string>
+
+    <!-- Calibration instructions -->
+    <string name="cal_step_attack">Tap the ATTACK button</string>
+    <string name="cal_step_hp_pot">Tap the HP POTION button</string>
+    <string name="cal_step_mp_pot">Tap the MP POTION button</string>
+    <string name="cal_step_joystick">Tap the JOYSTICK center</string>
+    <string name="cal_step_pickup">Tap the PICKUP button</string>
+    <string name="cal_step_skill1">Tap SKILL 1 button</string>
+    <string name="cal_step_skill2">Tap SKILL 2 button</string>
+    <string name="cal_step_hp_bar_left">Tap the LEFT edge of HP bar</string>
+    <string name="cal_step_hp_bar_right">Tap the RIGHT edge of HP bar</string>
+    <string name="cal_step_mob_name">Tap on a MONSTER NAME</string>
+
+    <!-- Toast messages -->
+    <string name="toast_overlay_required">Overlay permission is required!</string>
+    <string name="toast_capture_required">Screen capture permission is required!</string>
+    <string name="toast_bot_started">M2 Bot Pro started!</string>
+    <string name="toast_accessibility_active">M2 Bot: Accessibility service ACTIVE</string>
+    <string name="toast_calibrate_first">Calibrate first using the SETUP button!</string>
+    <string name="toast_calibration_done">Calibration complete!</string>
+    <string name="toast_bot_closed">Bot closed</string>
+    <string name="toast_color_reset">Color data reset. Will re-learn on next start.</string>
+</resources>
